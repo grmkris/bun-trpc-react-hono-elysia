@@ -1,0 +1,15 @@
+{
+  "name": "backend-hono",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "@hono/trpc-server": "^0.1.0",
+    "@trpc/server": "^10.38.2",
+    "hono": "^3.5.8",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.2"
+  }
+}

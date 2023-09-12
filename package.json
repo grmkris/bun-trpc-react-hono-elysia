@@ -1,0 +1,19 @@
+{
+  "name": "bun-trpc-react",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:fronted": "cd apps/frontend && bun dev",
+    "dev:backend": "cd apps/backend-hono && bun dev",
+    "prettier:write": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,json,md}\""
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4"
+  }
+}
