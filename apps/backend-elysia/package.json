@@ -1,0 +1,20 @@
+{
+  "name": "backend-elysia",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^0.6.0",
+    "@elysiajs/trpc": "^0.6.1",
+    "@elysiajs/websocket": "^0.2.8",
+    "@trpc/server": "^10.38.2",
+    "elysia": "latest",
+    "zod": "^3.22.2"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
