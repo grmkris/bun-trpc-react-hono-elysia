@@ -6,7 +6,7 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "@elysiajs/cors": "^0.6.0",
+    "@elysiajs/cors": "^0.7.0",
     "@elysiajs/trpc": "^0.6.1",
     "@elysiajs/websocket": "^0.2.8",
     "@trpc/server": "^10.38.2",
