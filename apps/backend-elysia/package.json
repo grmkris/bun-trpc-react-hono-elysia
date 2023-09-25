@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@elysiajs/cors": "^0.6.0",
-    "@elysiajs/trpc": "^0.6.1",
+    "@elysiajs/trpc": "^0.7.0",
     "@elysiajs/websocket": "^0.2.8",
     "@trpc/server": "^10.38.2",
     "elysia": "latest",
