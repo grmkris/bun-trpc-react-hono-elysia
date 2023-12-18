@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@tanstack/react-query": "^4.35.0",
+    "@tanstack/react-query": "^5.14.1",
     "@tanstack/react-query-devtools": "^4.35.0",
     "@tanstack/react-router": "beta",
     "@trpc/client": "^10.38.2",
